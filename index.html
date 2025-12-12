@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Team Profiles rotation with pure CSS</title>
+</head>
+<body>
+
+<div style="--total: 7;" class="circle-wrapper">
+  <div class="center-element"><b>The Team</b></div>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-1">
+  <label id="avatar-1" for="radio-avatar-1" class="avatar" style="--i:1">
+    <img src="noman.jpg" alt="Noman Shaikh">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Noman Shaikh - The Lagend</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-2">
+  <label id="avatar-2" for="radio-avatar-2" class="avatar" style="--i:2">
+    <img src="aman.jpg" alt="Aman Kureshi">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Aman Kureshi - The Fighter</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-3">
+  <label id="avatar-3" for="radio-avatar-3" class="avatar" style="--i:3">
+    <img src="sohan.jpg" alt="Sohan Mirza">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Sohan Mirza - The Game Changer</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-4">
+  <label id="avatar-4" for="radio-avatar-4" class="avatar" style="--i:4">
+    <img src="mahir.jpg" alt="Mahir Shaikh">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Mahir Shaikh - The Roster</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-5">
+  <label id="avatar-5" for="radio-avatar-5" class="avatar" style="--i:5">
+    <img src="aftab.jpg" alt="Aaftab Malek">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Aaftab Malek - Designer</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-6">
+  <label id="avatar-6" for="radio-avatar-6" class="avatar" style="--i:6">
+    <img src="rs.jpg" alt="RS">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Raihan Shaikh - The Leader</textPath>
+      </text>
+    </svg>
+  </label>
+
+  <input type="radio" name="radio-avatar" id="radio-avatar-7">
+  <label id="avatar-7" for="radio-avatar-7" class="avatar" style="--i:7">
+    <img src="ayan.jpg" alt="Ayan Shaikh">
+    <svg viewBox="0 0 300 300">
+      <text fill="currentColor">
+        <textPath xlink:href="#circlePath">Ayaan Shaikh - Web Devloper</textPath>
+      </text>
+    </svg>
+  </label>
+
+</div>
+
+<!-- SVG template for dynamic text -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300" width="0" height="0">
+  <defs>
+    <path id="circlePath" d="M 150, 150 m -100, 0 a 100,100 0 0,1 200,0 a 100,100 0 0,1 -200,0" />
+  </defs>
+</svg>
+
+<script src="script.js"></script>
+</body>
+</html>
